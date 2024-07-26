@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.emoji {
+    font-size: 200px;
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: all 0.5s ease-in-out;
+    animation: slideFromTop 1s ease-in;
+    
+}
+.emoji:hover {
+    filter: grayscale(0);
+    transform: scale(1.5);
+}
+
+@keyframes slideFromTop{
+    0% {
+        transform: translateX(100%);
+        
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+    
+}

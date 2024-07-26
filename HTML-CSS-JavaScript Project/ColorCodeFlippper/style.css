@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    padding: 10px 20px;
+}
+
+.color {
+    color: aqua;
+}
+
+button {
+    padding: 10px 20px;
+    border: 2px solid ;
+    letter-spacing: 3px;
+    transition: all 0.2s ease-in-out;
+}
+button:hover {
+    background-color: black;
+    color: white;
+    
+
+}

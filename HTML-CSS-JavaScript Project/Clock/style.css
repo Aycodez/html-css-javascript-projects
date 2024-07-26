@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    background-color: gray;
+    width: 100%;
+    height: 50vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.hour, .sec, .min {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    /* text-align: center; */
+    
+    
+}
+
+h1 {
+    color: red;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: green;
+
+}
